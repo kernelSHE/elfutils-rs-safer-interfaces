@@ -1,0 +1,76 @@
+{
+  "total": 100,
+  "passed": 100,
+  "failed": 0,
+  "known_limitations": 0,
+  "effective_pass_rate": 1.0,
+  "final_verdict": "consistent",
+  "per_function_stats": {
+    "elf_end": {
+      "total": 100,
+      "passed": 100,
+      "failed": 0,
+      "known_limitations": 0
+    }
+  },
+  "per_category_stats": {
+    "boundary": {
+      "total": 22,
+      "passed": 22,
+      "failed": 0,
+      "rate": 1.0
+    },
+    "normal": {
+      "total": 6,
+      "passed": 6,
+      "failed": 0,
+      "rate": 1.0
+    },
+    "integration": {
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "rate": 1.0
+    },
+    "stress": {
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "rate": 1.0
+    },
+    "mutation": {
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "rate": 1.0
+    },
+    "fuzz": {
+      "total": 59,
+      "passed": 59,
+      "failed": 0,
+      "rate": 1.0
+    }
+  },
+  "failure_categories": {},
+  "failed_tests": [],
+  "layer3_coverage": {
+    "elf_end": {
+      "total_cases": 100,
+      "executed": 100,
+      "passed": 100,
+      "failed": 0,
+      "from_encodings_tested": 0,
+      "to_encodings_tested": 0,
+      "categories_covered": [],
+      "error_paths_tested": 0,
+      "coverage_score": 1.0,
+      "suggestions": [
+        "Missing source encodings (tested 0/20)",
+        "Missing target encodings (tested 0/20)",
+        "No boundary value tests",
+        "No edge case tests",
+        "No error path tests executed"
+      ]
+    }
+  }
+}
