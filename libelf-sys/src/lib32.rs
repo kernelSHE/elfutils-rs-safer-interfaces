@@ -6343,9 +6343,9 @@ extern "C" {
 extern "C" {
     pub fn elf_next(__elf: *mut Elf) -> Elf_Cmd::Type;
 }
-extern "C" {
-    pub fn elf_end(__elf: *mut Elf) -> ::libc::c_int;
-}
+//extern "C" {
+//    pub fn elf_end(__elf: *mut Elf) -> ::libc::c_int;
+//}
 extern "C" {
     pub fn elf_update(__elf: *mut Elf, __cmd: Elf_Cmd::Type) -> i64;
 }
